@@ -3,7 +3,7 @@
 import os
 
 
-# Run command with OS shell:
+# Run process through OS:
 
 def get_ip_address(url):
     command = "host " + url
