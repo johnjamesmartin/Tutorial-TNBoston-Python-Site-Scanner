@@ -1,4 +1,4 @@
-# Imports
+# Imports:
 
 import os
 
@@ -19,4 +19,4 @@ def get_ip_address(url):
     return results[marker:].splitlines()[0]
 
 
-print(get_ip_address('google.com'))
+# print(get_ip_address('google.com'))
